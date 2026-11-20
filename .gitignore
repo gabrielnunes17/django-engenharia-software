@@ -1,2 +1,46 @@
-.venv
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments & environment variables
+.env
+.env.*
+!.env.example
+venv/
+.venv/
+env/
+ENV/
+
+# Django files
+*.log
+*.pot
+*.mo
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+local_settings.py
+
+# Packaging & build
+build/
+dist/
+*.egg-info/
+*.whl
+
+# Testing & coverage
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+.tox/
+.mypy_cache/
+
+# IDEs & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# DB
 db.sqlite3

@@ -72,3 +72,43 @@ footer {
     color: #757575;
     margin-top: 22px;
 }
+
+.sobre-page {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    box-sizing: border-box;
+}
+
+.sobre-page main {
+    width: 100%;
+    max-width: 680px;
+    padding: 48px 32px;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.sobre-page h1 {
+    margin-bottom: 20px;
+    color: #252525;
+}
+
+.sobre-page p {
+    margin-bottom: 12px;
+    color: #555;
+    line-height: 1.6;
+}
+
+.sobre-page a {
+    display: inline-block;
+    margin-top: 12px;
+    padding: 12px 20px;
+    border-radius: 5px;
+    background-color: #3aa871;
+    color: white;
+}

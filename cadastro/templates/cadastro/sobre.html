@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sobre</title>
+  <link rel="stylesheet" type="text/css" href="{% static 'css/estilo.css' %}">
+</head>
+<body class="sobre-page">
+  <main>
+    <h1>Sobre o Sistema de Biblioteca</h1>
+    <p>Este sistema foi desenvolvido para facilitar a organização, o controle e o acesso ao acervo de livros de forma simples, rápida e intuitiva. A plataforma permite que leitores e administradores acompanhem títulos disponíveis, realizem consultas no catálogo e gerenciem empréstimos sem burocracia.</p>
+    <a href="{% url 'login' %}">Voltar para o Login</a>
+  </main>
+</body>
+</html>
